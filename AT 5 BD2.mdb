@@ -1,0 +1,609 @@
+	//Criacao e insercao da colecao produtos
+	//Equipe: Flávio, Marcísio e Thiago
+
+db.produtos.insert({
+	"_id": 1,
+	"Nome": "Teclado Warrior Multilaser",
+	"Marca": "Multilaser",
+	"Modelo": "Nao Se Aplica",
+	"Preco": 119.99,
+	"Garantia": "2 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Periferico Eletronico",
+	"Quantidade": 20,
+	"OBS": "N/A"
+})
+
+db.produtos.insert({
+	"_id": 2,
+	"Nome": "Mouse Warrior Multilaser",
+	"Marca": "Multilaser",
+	"Modelo": "Nao Se Aplica",
+	"Preco": 59.99,
+	"Garantia": "2 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Periferico Eletronico",
+	"Quantidade": 30,
+	"OBS": "N/A"
+})
+
+db.produtos.insert({
+	"_id": 3,
+	"Nome": "Caixa de Som JBL Flip 5",
+	"Marca": "JBL",
+	"Modelo": "Flip 5",
+	"Preco": 529.99,
+	"Garantia": "3 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Eletronico",
+	"Quantidade": 40,
+	"OBS": "A Prova D'agua"
+})
+
+db.produtos.insert({
+	"_id": 4,
+	"Nome": "Caixa de Som JBL Flip 4",
+	"Marca": "JBL",
+	"Modelo": "Flip 4",
+	"Preco": 419.99,
+	"Garantia": "3 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Eletronico",
+	"Quantidade": 35,
+	"OBS": "A Prova D'agua"
+})
+
+db.produtos.insert({
+	"_id": 5,
+	"Nome": "Monitor Samsung MN5812",
+	"Marca": "Samsung",
+	"Modelo": "MN5812",
+	"Preco": 109.99,
+	"Garantia": "1 ano",
+	"Compatibilidade": "Todos",
+	"Categoria": "Periferico Eletronico",
+	"Quantidade": 38,
+	"OBS": "Bivolt"
+})
+
+db.produtos.insert({
+	"_id": 6,
+	"Nome": "Fone de ouvido Sony F666",
+	"Marca": "Sony",
+	"Modelo": "F666",
+	"Preco": 39.99,
+	"Garantia": "1 ano",
+	"Compatibilidade": "Todos",
+	"Categoria": "Periferico Eletronico",
+	"Quantidade": 50,
+	"OBS": "A Prova D'agua"
+})
+
+db.produtos.insert({
+	"_id": 7,
+	"Nome": "Fone de ouvido Microsoft MS42",
+	"Marca": "Microsoft",
+	"Modelo": "MS42",
+	"Preco": 15.99,
+	"Garantia": "1 ano",
+	"Compatibilidade": "Todos",
+	"Categoria": "Periferico Eletronico",
+	"Quantidade": 67,
+	"OBS": "N/A"
+})
+
+db.produtos.insert({
+	"_id":8,
+	"Nome": "Gabinete Geradeaus Gehen875",
+	"Marca": "Geradeaus",
+	"Modelo": "Gehen875",
+	"Preco": 97.99,
+	"Garantia": "2 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Gabinete",
+	"Quantidade": 38,
+	"OBS": "Metalizado"
+})
+
+db.produtos.insert({
+	"_id": 9,
+	"Nome": "Gabinete Alors ON321",
+	"Marca": "Alors",
+	"Modelo": "ON321",
+	"Preco": 71.99,
+	"Garantia": "1 ano",
+	"Compatibilidade": "Todos",
+	"Categoria": "Gabinete",
+	"Quantidade": 46,
+	"OBS": "N/A"
+})
+
+db.produtos.insert({
+	"_id": 10,
+	"Nome": "Placa de Video NVIDIA GeForce GTX 1660",
+	"Marca": "NVIDIA",
+	"Modelo": "GeForce GTX 166",
+	"Preco": 1080.99,
+	"Garantia": "3 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Placa de Video",
+	"Quantidade": 39,
+	"OBS": "N/A"
+})
+
+db.produtos.insert({
+	"_id": 11,
+	"Nome": "Placa de Video NVIDIA GeForce GTX 72",
+	"Marca": "NVIDIA",
+	"Modelo": "GeForce GTX 72",
+	"Preco": 21.99,
+	"Garantia": "3 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Placa de Video",
+	"Quantidade": 26,
+	"OBS": "N/A"
+})
+
+db.produtos.insert({
+	"_id": 12,
+	"Nome": "Placa Mao ASUS Z97-E",
+	"Marca": "ASUS",
+	"Modelo": "Z97-E",
+	"Preco": 58.99,
+	"Garantia": "3 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Placa Mae",
+	"Quantidade": 3,
+	"OBS": "N/A"
+})
+
+db.produtos.insert({
+	"_id": 13,
+	"Nome": "Placa Mae Asus mATX AM4",
+	"Marca": "ASUS",
+	"Modelo": "mATX AM4",
+	"Preco": 563.99,
+	"Garantia": "3 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Placa Mae",
+	"Quantidade": 34,
+	"OBS": "N/A"
+})
+
+db.produtos.insert({
+	"_id": 14,
+	"Nome": "Headset Sony SUR956",
+	"Marca": "Sony",
+	"Modelo": "SUR956",
+	"Preco": 89.99,
+	"Garantia": "2 anos",
+	"Compatibilidade": "Todos",
+	"Categoria": "Periferico Eletronico",
+	"Quantidade": 5,
+	"OBS": "A Prova D'agua"
+})
+
+	//Criacao e insercao da colecao vendedores
+
+db.vendedores.insert({
+	"_id": 1,
+	"Nome_Vendedor": "Ana Lima",
+	"Email_Vendedor": "ana-lima@link.br",
+	"Enderesso_Vendedor": "Rua 4, Numero 17",
+	"Telefone_Vendedor": "11223344",
+})
+
+db.vendedores.insert({
+	"_id": 2,
+	"Nome_Vendedor": "Carla Lima",
+	"Email_Vendedor": "carla-lima@link.br",
+	"Enderesso_Vendedor": "Rua 13, Numero 2",
+	"Telefone_Vendedor": "22334455",
+
+})
+
+db.vendedores.insert({
+	"_id": 3,
+	"Nome_Vendedor": "Jose Antonio",
+	"Email_Vendedor": "jose-antonio@link.br",
+	"Enderesso_Vendedor": "Rua 1, Numero 4",
+	"Telefone_Vendedor": "33445566",
+
+})
+
+db.vendedores.insert({
+	"_id": 4,
+	"Nome_Vendedor": "Rafaela Frit",
+	"Email_Vendedor": "rafaela-frit@link.br",
+	"Enderesso_Vendedor": "Rua 4, Numero 25",
+	"Telefone_Vendedor": "44556677",
+
+})
+
+db.vendedores.insert({
+	"_id": 5,
+	"Nome_Vendedor": "Breno Aragao",
+	"Email_Vendedor": "breno-aragao@Link.br",
+	"Enderesso_Vendedor": "Rua 33, Numero 18",
+	"Telefone_Vendedor": "55667788",
+
+})
+
+db.vendedores.insert({
+	"_id": 6,
+	"Nome_Vendedor": "Rafaela Frit",
+	"Email_Vendedor": "rafaela-frit@link.br",
+	"Enderesso_Vendedor": "Rua 14, Numero 34",
+	"Telefone_Vendedor": "66778899",
+
+})
+
+db.vendedores.insert({
+	"_id": 7,
+	"Nome_Vendedor": "Gustavo Larce",
+	"Email_Vendedor": "gustavo-larce@link.br",
+	"Enderesso_Vendedor": "Rua 42, Numero 2",
+	"Telefone_Vendedor": "77889900",
+
+})
+
+	//Criacao e insercao da colecao clientes
+
+db.clientes.insert({
+	"_id": 1,
+	"Nome_Cliente": "Gilherme Alan",
+	"Email_Cliente": "gilhermealan@gmail.com",
+	"Enderesso_Cliente": "Rua 5, Numero 22",
+	"Telefone_Cliente": "44332211",
+
+})
+
+db.clientes.insert({
+	"_id": 2,
+	"Nome_Cliente": "Luiz Soares",
+	"Email_Cliente": "luizsoaresgarcia@outlook.com",
+	"Enderesso_Cliente": "Rua 26, Numero 32",
+	"Telefone_Cliente": "55443322",
+
+})
+
+db.clientes.insert({
+	"_id": 3,
+	"Nome_Cliente": "Luana Suis",
+	"Email_Cliente": "luanas@gmail.com",
+	"Enderesso_Cliente": "Rua 2, Numero 11",
+	"Telefone_Cliente": "66554433",
+
+})
+
+db.clientes.insert({
+	"_id": 4,
+	"Nome_Cliente": "Lara Garcia",
+	"Email_Cliente": "laragarcia@gmail.com",
+	"Enderesso_Cliente": "Rua 26, Numero 32",
+	"Telefone_Cliente": "77665544",
+
+})
+
+db.clientes.insert({
+	"_id": 5,
+	"Nome_Cliente": "Fernando Araujo",
+	"Email_Cliente": "araujolopes@hotmail.com",
+	"Enderesso_Cliente": "Rua 37, Numero 29",
+	"Telefone_Cliente": "88776655",
+
+})
+
+db.clientes.insert({
+	"_id": 6,
+	"Nome_Cliente": "Jose Fernando",
+	"Email_Cliente": "josef@hotmail.com",
+	"Enderesso_Cliente": "Rua 5, Numero 9",
+	"Telefone_Cliente": "99887766",
+
+})
+
+db.clientes.insert({
+	"_id": 7,
+	"Nome_Cliente": "Jose Carlos",
+	"Email_Cliente": "josecarlos@outlook.com",
+	"Enderesso_Cliente": "Rua 6, Numero 24",
+	"Telefone_Cliente": "00998877",
+
+})
+
+	//Criacao e insercao da colecao vendas
+	
+db.vendas.insert({
+	"_id": 1,
+	"Email_Vendedor": "jose-antonio@link.br",
+	"Email_Cliente": "josecarlos@outlook.com",
+	"Vendido": [{
+			"ID_Produto": 1,
+			"quantidade": 1
+		},{
+			"ID_Produto": 2,
+			"quantidade": 2
+		}]
+})
+
+db.vendas.insert({
+	"_id": 2,
+	"Email_Vendedor": "jose-antonio@link.br",
+	"Email_Cliente": "araujolopes@hotmail.com",
+	"Vendido": [{
+			"ID_Produto": 11,
+			"quantidade": 2
+		}]
+})
+
+db.vendas.insert({
+	"_id": 3,
+	"Email_Vendedor": "carla-lima@link.br",
+	"Email_Cliente": "luanas@gmail.com",
+	"Vendido": [{
+			"ID_Produto": 7,
+			"quantidade": 4
+		},{
+			"ID_Produto": 12,
+			"quantidade": 1
+		}]
+})
+
+db.vendas.insert({
+	"_id": 4,
+	"Email_Vendedor": "gustavo-larce@link.br",
+	"Email_Cliente": "luizsoaresgarcia@outlook.com",
+	"Vendido": [{
+			"ID_Produto": 14,
+			"quantidade": 1
+		},{
+			"ID_Produto": 6,
+			"quantidade": 5
+		}]
+})
+
+db.vendas.insert({
+	"_id": 5,
+	"Email_Vendedor": "jose-antonio@link.br",
+	"Email_Cliente": "laragarcia@gmail.com",
+	"Vendido": [{
+			"ID_Produto": 8,
+			"quantidade": 4
+		}]
+})
+
+db.vendas.insert({
+	"_id": 6,
+	"Email_Vendedor": "rafaela-frit@link.com",
+	"Email_Cliente": "laragarcia@gmail.com",
+	"Vendido": [{
+			"ID_Produto": 8,
+			"quantidade": 4
+		}]
+})
+
+db.vendas.insert({
+	"_id": 7,
+	"Email_Vendedor": "rafaela-frit@link.com",
+	"Email_Cliente": "gilhermealan@gmail.com",
+	"Vendido": [{	
+			"ID_Produto": 11,
+			"quantidade": 2
+		}]
+})
+
+	//****Busca Simples****
+
+	//Questao 1	
+db.produtos.find({
+	"Preco":{$gt:20}
+})
+
+	//Questao 2
+db.produtos.find({
+    $and:[
+        {"Preco":{$gt:30}},
+        {"Preco":{$lt:90.34}}
+	]
+})
+
+	//Questao 3
+db.vendas.find({
+    $and:[
+    	{"Email_Vendedor": "rafaela-frit@link.com"},
+	{"Email_Cliente": "laragarcia@gmail.com"},
+        ]
+})
+
+	//Questao 4
+db.vendas.find({
+	"Email_Vendedor": "jose-antonio@link.br"
+})
+
+	//Questao 5
+db.vendas.find({
+	"Email_Cliente": "laragarcia@gmail.com"
+})
+
+	//Questao 6
+db.vendas.distinct(
+	"Vendido.quantidade",
+	{"Email_Cliente": "josecarlos@outlook.com"
+})
+
+	//Questao 7
+db.vendas.aggregate([{
+	$match:{
+	 	_id:7
+	}},{
+	$lookup:{
+		from:"clientes",
+	   	localField:"Email_Cliente",
+	   	foreignField:"Email_Cliente",
+	   	as: "Comprador"
+	}},{
+	$group:{
+		_id:null,
+		"Comprador_nome":{$push:"$Comprador.Nome_Cliente"
+	}}
+}])
+
+	//Questao 8
+db.produtos.find({
+	$or:[
+		{"Preco":{$gt:75}},{"Preco":{$eq:15}}
+	]
+})
+
+//****Funcoes de resumo de agregação****
+	
+	//Questao 1
+
+//Soma dos Precos
+db.produtos.aggregate([{
+	$group:{_id:null,
+	preco_sum:{$sum:"$Preco"}
+}}])
+
+//Media do Preco
+db.produtos.aggregate([{
+	$group:{_id:null,
+    	media:{$avg:"$Preco"}
+}}])
+
+//Preco minimo
+db.produtos.aggregate([{
+	$group:{_id:null,
+    	preco_min:{$min:"$Preco"}
+}}])
+
+//Preco maximo
+db.produtos.aggregate([{
+	$group:{_id:null,
+  	preco_max:{$max:"$Preco"}
+}}])
+
+	// ******UPDATE******
+
+	// Questão 1
+db.clientes.update(
+	{"_id": 2},
+    	{$set:
+        {"Nome_Cliente": "Alice Soares"}
+	}
+)
+
+	// Questão 2
+db.produtos.update(
+    	{"Nome": "Teclado Warrior Multilaser"},
+    	{$inc:
+        {"Quantidade": 7}
+	}
+)
+
+	// Questão 3
+	//Venda
+db.vendas.insert({
+	"_id": 8,
+	"Email_Vendedor": "gustavo-larce@link.br",
+	"Email_Cliente":"luizsoaresgarcia@outlook.com",
+	"Vendido": [{
+			"ID_Produto": 1,
+			"quantidade": 5
+		}]
+})
+
+db.produtos.update(
+    	{"_id": 1},
+    	$inc:
+        {"Quantidade": -5}
+        }
+)
+
+	//Devolucao
+db.devolucao.insert({
+    	"_id": 1,
+    	"ID_Venda": 8
+    	"Devolvido":[{
+        "ID_produto": 1,
+        "quantidade": 3        
+        }]
+})
+
+db.produtos.update(
+   	{"_id": 1},
+	{$inc:
+        {"Quantidade": 3}
+	}
+)
+
+	// ******JUNÇÕES******
+
+	// Questão 1
+db.vendas.aggregate([{
+    	$lookup:{
+	from: "vendedores",
+    	localField:"Email_Vendedor",
+    	foreignField:"Email_Vendedor",
+    	as: "Vendedores"
+    	}
+}])
+
+	// Questão 2
+db.vendas.aggregate([{
+	$lookup:{
+    	from: "vendedores",
+    	localField:"Email_Vendedor",
+    	foreignField:"Email_Vendedor",
+    	as: "Vendedor"}
+	},{
+	$match:{"Email_Vendedor": "gustavo-larce@link.br"}
+}])
+
+	// Questão 3
+db.vendas.aggregate([{
+	$match:{"_id": 1}
+	},{
+	$lookup:{
+	from: "vendedores",
+    	localField:"Email_Vendedor",
+    	foreignField: "Email_Vendedor",
+    	as: "vendedor"
+	}},{
+	$lookup:{
+    	from:"clientes",
+    	localField: "Email_Cliente",
+    	foreignField: "Email_Cliente",
+    	as: "cliente"
+	}
+}])
+	// Questão 4
+db.clientes.aggregate([{
+	$match:{"Email_Cliente": "luanas@gmail.com"}
+        },{
+    	$lookup:{
+    	from: "vendas",
+    	localField:"Email_Cliente",
+    	foreignField:"Email_Cliente",
+    	as: "Compras"
+    	}
+}])
+
+	// Questão 5
+
+db.vendas.aggregate([{
+	$unwind: '$Vendido'
+	},{
+	$match:{"_id": 1}
+	},{
+	$lookup:{
+	from:"produtos",
+	localField: "Vendido.ID_Produto",
+	foreignField: "_id",
+	as: "compras"
+	}},{
+	$unwind: '$compras'
+	},{
+	$project: {Id_produto: '$compras._id', Nome_produto: '$compras.Nome', Preco_Produto: "$compras.Preco"}
+}])

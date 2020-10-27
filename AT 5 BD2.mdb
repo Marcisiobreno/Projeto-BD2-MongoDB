@@ -1,6 +1,6 @@
-	//Criacao e insercao da colecao produtos
 	//Equipe: Flávio, Marcísio e Thiago
-
+	//Criacao e insercao da colecao produtos
+	
 db.produtos.insert({
 	"_id": 1,
 	"Nome": "Teclado Warrior Multilaser",
